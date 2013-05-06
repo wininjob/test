@@ -10,6 +10,7 @@ use Acme\DemoBundle\Form\ContactType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
+// Demo controller
 class DemoController extends Controller
 {
     /**
