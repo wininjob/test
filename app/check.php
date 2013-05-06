@@ -1,5 +1,5 @@
 <?php
-
+// file di check
 require_once dirname(__FILE__).'/SymfonyRequirements.php';
 
 $symfonyRequirements = new SymfonyRequirements();
