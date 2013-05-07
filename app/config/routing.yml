@@ -1,0 +1,5 @@
+wininjob_test:
+    resource: "@WininjobTestBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
