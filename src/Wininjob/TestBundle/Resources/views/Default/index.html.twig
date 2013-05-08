@@ -1,5 +1,5 @@
 {% extends 'WininjobTestBundle::layout.html.twig' %}
 {% block title %} Homepage | {{ parent() }} {% endblock %}
 {% block content %}
-	Hello!
+	Hello! <a href="{{ path('back_homepage') }}">Go to the back...</a>
 {% endblock %}
