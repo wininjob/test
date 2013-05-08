@@ -1,6 +1,6 @@
 <?php
 
-namespace Wininjob\TestBundle\Controller;
+namespace Wininjob\AdminBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -8,21 +8,12 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
 class DefaultController extends Controller
 {
-	/**
-	 * @Route("/", name="front_homepage")
-	 * @template()
-	 */
-	public function indexAction()
-	{
-		return array();
-	}
-
     /**
-     * @Route("/hello/{name}")
+     * @Route("/", name="back_homepage")
      * @Template()
      */
-    public function helloAction($name)
+    public function indexAction()
     {
-        return array('name' => $name);
+        return array();
     }
 }
