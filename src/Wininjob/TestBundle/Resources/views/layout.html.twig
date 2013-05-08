@@ -15,7 +15,10 @@
 		{% endstylesheets %}
 	{% endblock %}
 </head>
-<body>
-	{% block content %}{% endblock %}
+<body style="padding-top: 45px">
+	{% include 'WininjobTestBundle::menu.html.twig' %}
+	<div class="container">
+		{% block content %}{% endblock %}
+	</div>
 </body>
 </html>
